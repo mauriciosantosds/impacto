@@ -1,0 +1,37 @@
+.whats a i, .whats a span {
+    color: #fff;
+}
+
+.sticky-wrapper.is-sticky .whats a i,
+.sticky-wrapper.is-sticky .whats a span {
+    color: #000;
+}
+
+#logo {
+    height: 50px;
+    background-image: url(../images/logo-white.png);
+    background-repeat: no-repeat;
+}
+
+.sticky-wrapper.is-sticky #logo {
+    background-image: url(../images/logo.png);
+}
+
+#social-media {
+    padding-top: 40px;
+}
+
+@media (max-width: 576px) {
+	.site-logo {
+        width: 100% !important;
+    }
+    .intro-section h1 {
+        font-size: 1.5em;
+    }
+}
+
+@media (max-width: 410px) {
+    .intro-section h1 {
+    	margin-top: 80px;
+    }
+}

@@ -1,0 +1,10 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed');
+$config['protocol'] = 'smtp';
+$config['smtp_host'] = 'mail.impactodesenvolvimento.com.br';
+$config['smtp_port'] = '587';
+$config['smtp_timeout'] = '30';
+$config['smtp_user'] = 'contato@impactodesenvolvimento.com.br';
+$config['smtp_pass'] = '{K#MH)3#BGOW';
+$config['charset'] = 'utf-8';
+$config['newline'] = "\r\n";
+$config['mailtype'] = 'html';
